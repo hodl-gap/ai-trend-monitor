@@ -1,0 +1,12 @@
+[submodule "people-db"]
+	path = people-db
+	url = https://github.com/hodl-gap/people-db.git
+[submodule "twitter-scraper-chrome-devtools"]
+	path = twitter-scraper-chrome-devtools
+	url = https://github.com/hodl-gap/twitter-scraper-chrome-devtools.git
+[submodule "linkedin-scraper"]
+	path = linkedin-scraper
+	url = https://github.com/hodl-gap/linkedin-scraper.git
+[submodule "youtube-scraper"]
+	path = youtube-scraper
+	url = https://github.com/hodl-gap/youtube-scraper.git
