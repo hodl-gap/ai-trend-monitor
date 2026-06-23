@@ -5,6 +5,21 @@ to what matters (what AI leaders are doing/thinking), reports a digest, discover
 people/channels, and (optionally) likes/follows to tune your feeds. Driven by Claude
 Code + the chrome-devtools MCP on **your own** logged-in browser sessions.
 
+> ## Scope & intent — strictly SNS
+> This is deliberately a **social-media monitor**, not a news aggregator. It watches
+> **only X, LinkedIn, and YouTube** — i.e. what tracked people **post on SNS** and what
+> tracked YouTube channels publish. It is **account-centric**, not topic-centric.
+>
+> **Intentionally out of scope** (and it should stay this way): newsletters, news
+> articles, press/media coverage, blogs, podcasts on non-tracked outlets, RSS, email
+> digests, web search. The goal is to stay **small, focused, and bounded** — not to grow
+> into an "everything about AI" firehose.
+>
+> **Known consequence:** third-party media about a tracked person slips through by design.
+> If, say, Satya Nadella gives a hot WSJ interview, this system will **not** catch it
+> unless he (or someone tracked) posts/reshares it on SNS, or it lands on a tracked
+> YouTube channel. That gap is **accepted on purpose** to keep the system SNS-only.
+
 This umbrella bundles 4 repos as git submodules:
 
 | Submodule | Role |
